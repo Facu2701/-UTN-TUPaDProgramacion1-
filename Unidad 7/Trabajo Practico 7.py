@@ -1,5 +1,5 @@
 
-#Actividad 1
+print("Actividad 1")
 
 Precios_frutas = {'Banana': 1200, 'Anana' : 2500, 'Melón' : 3000, 'Uva' : 1450}
 #Añadir frutas 'naranja'=1200, 'Manzana'=1500, 'Pera'=2300
@@ -9,8 +9,9 @@ Precios_frutas["Manzana"] = 1500
 Precios_frutas["Pera"] = 2300
 print(Precios_frutas)
 
+print("")
 
-#Actividad 2
+print("Actividad 2")
 #Siguiendo con el diccionario Precios_frutas, actualizar los precios de las siguientes frutas:
 #Banana = 1330
 #Manzana = 1700
@@ -20,12 +21,16 @@ Precios_frutas["Manzana"] = 1700
 Precios_frutas["Melón"] = 2800
 print(Precios_frutas)
 
-#Actividad 3
+print("")
+
+print("Actividad 3")
 #Siguiendo con el diccionario Precios_frutas, crear una lista que contenga unicamente las frutas sin los precios
 frutas = ["Banana", "Anana", "Melón", "Uva", "Naranja", "Manzana", "Pera"]
 print(frutas)
 
-#Actividad 4
+print("")
+
+print("Actividad 4")
 #Programa que permita almacenar y consultar número telefónicos
 contactos={}
 
@@ -48,9 +53,9 @@ if nombre_buscado in contactos: #Verificamos si el nombre existe en el diccionar
 else:
     print("Ese nombre no se encuentra en la lista")
     
+print("")
 
-
-#Actividad 5
+print("Actividad 5")
 from collections import Counter
 #Programa que permita ingresar una frase y luego muestre las palabras únicas y la frecuencia de cada palabra
 texto = input("Ingrese una frase: ")
@@ -63,7 +68,9 @@ print (palabras_unicas)#Mostramos las palabras únicas
 frecuencia = Counter(lista_texto)
 print(frecuencia)
 
-#Actividad 6
+print("")
+
+print("Actividad 6")
 Libreta = {}
 Alumnos = []
 Notas = []
@@ -81,7 +88,9 @@ for i in range(3):#Cantidad de alumnos
 Libreta = dict(zip(Alumnos,Notas))
 print (Libreta)
 
-#Actividad 7
+print("")
+
+print("Actividad 7")
 #Conjuntos de alumnos que aprobaron los parciales
 Parcial_1 = {1,5,4,7,8,9,6}
 Parcial_2 = {3,4,9,2,1,10,11}
@@ -98,8 +107,9 @@ print(f"Los alumnos que aprobaron por lo menos un parcial son: {aprobados_solo_u
 aprobados_al_menos_uno = Parcial_1 | Parcial_2
 print(f"Los alumnos que aprobaron al menos un parcial son: {aprobados_al_menos_uno}")
 
+print("")
 
-#Actividad 8
+print("Actividad 8")
 Inventario = {'Fideos': 100, 'Arroz': 250, 'Lenteja' : 75, 'Atun' : 60}
 while True:#Bucle infinito hasta que el usuario decida salir
     print("///MENU///")
@@ -136,8 +146,9 @@ while True:#Bucle infinito hasta que el usuario decida salir
         print("Hasta luego!")
         break
 
+print("")
 
-#Actividad 9
+print("Actividad 9")
 
 Agenda = {
     ("Lunes","9:00") : "Gimnasio",
@@ -157,12 +168,15 @@ def consultar_actividad(dia, hora):
 print(consultar_actividad("Lunes", "9:00"))#Actividad: Gimnasio
 print(consultar_actividad("Miércoles", "11:00"))#Actividad: Clase de Inglés
 
-#Actividad 10
+print("")
+
+print("Actividad 10")
 original = {
     "Argentina": "Buenos Aires",
     "Chile": "Santiago"
 }
-
+print("Diccionario original:")
+print(original)
 invertido = {}
 #Invertimos las claves y valores del diccionario original
 for pais, capital in original.items():
