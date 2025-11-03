@@ -1,0 +1,5 @@
+Nombre,Precio,Cantidad
+Manzanas,1.5,100
+Peras,1.2,150
+Naranjas,0.8,200
+Banana,1.6,200
