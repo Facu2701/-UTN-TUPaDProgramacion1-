@@ -1,10 +1,6 @@
-from Trabajo_Practico_9 import suma_n_digitos, contar_bloques, contar_digito
+from Trabajo_Practico_9 import suma_n_digitos, contar_bloques, contar_digito, es_palindromo
+from Trabajo_Practico_9 import decimal_a_binario, calculo_potencia, fibonacci, factorial
 
-from Trabajo_Practico_9 import es_palindromo
-from Trabajo_Practico_9 import decimal_a_binario
-from Trabajo_Practico_9 import calculo_potencia
-from Trabajo_Practico_9 import fibonacci
-from Trabajo_Practico_9 import factorial
 
 #Actividad 1
 # Calcular el factorial de un número
@@ -59,4 +55,5 @@ print(f"En total se necesitan {resultado} bloques para una base de {base}")
 numero = int(input("Ingrese un número para contar un dígito específico: "))
 digito = int(input("Ingrese el dígito que desea contar: "))
 resultado = contar_digito(numero, digito)
+
 print(f"El dígito {digito} aparece {resultado} veces en el número {numero}.")
